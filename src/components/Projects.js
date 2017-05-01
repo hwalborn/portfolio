@@ -6,6 +6,7 @@ const Projects = () => {
   let show = projectData.map((project, index) => {
     return <Project key={index} title={project.title} img={project.img} description={project.description} />
   })
+  
   return (
     <div>
       {show}
