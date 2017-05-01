@@ -7,7 +7,7 @@ const Projects = () => {
     return <Project key={index} title={project.title} img={project.img} description={project.description} />
   })
   return (
-    <div>
+    <div id="projects-container">
       {show}
     </div>
   )

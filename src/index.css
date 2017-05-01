@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Rationale|Roboto');
 
-#root{
-  width: 100%;
-}
-
 #page-title{
   font-family: 'Rationale', sans-serif;
   margin: 16% auto;
@@ -11,10 +7,6 @@
   font-size: 10em;
   color: orange;
   position: relative;
-}
-
-body {
-  margin: 0;
 }
 
 /*/////Header stuff/////*/
@@ -36,9 +28,6 @@ body {
   text-align: center;
 }
 
-#drop {
-  margin-left: 30%;
-}
 
 .header a:hover{
   color: black;
@@ -61,6 +50,7 @@ body {
   font-size: 1.75em;
   color: black;
   padding: 0;
+  margin-left: 30%;
 }
 
 /*/////About Section/////*/
@@ -96,4 +86,10 @@ canvas{
 /*/////Footer Section/////*/
 .icon {
   margin-left: 10%;
+}
+
+/*//////Projects Seciont/////*/
+#project-container {
+  text-align: center;
+  margin: auto;
 }
