@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Parallax } from 'react-parallax'
-import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router'
+import { Route } from 'react-router'
 
 import Header from './components/Header'
 import AboutMe from './components/AboutMe'
