@@ -9,6 +9,10 @@
   position: relative;
 }
 
+.col-md-3 {
+  padding: 0;
+}
+
 /*/////Header stuff/////*/
 .header {
   margin: 0;
@@ -88,8 +92,12 @@ canvas{
   margin-left: 10%;
 }
 
+#fix {
+  max-width: 100%;
+}
+
 /*//////Projects Seciont/////*/
-#project-container {
+.project-container {
   text-align: center;
-  margin: auto;
+  margin-top: 10%;
 }

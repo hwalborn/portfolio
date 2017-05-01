@@ -5,7 +5,7 @@ import { Row, Col } from 'react-bootstrap'
 const Footer = () => {
   return(
     <div style={{padding: "2% 0 2% 0"}}>
-      <Row>
+      <Row id="fix">
         <Col style={{textAlign: 'center'}} md={3}>
           <a className="icon" href="https://www.linkedin.com/in/holt-walborn/"><FontAwesome name="linkedin-square" size="4x" style={{color: 'black'}} /></a>
         </Col>

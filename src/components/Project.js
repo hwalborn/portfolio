@@ -1,11 +1,15 @@
 import React from 'react'
+import { Parallax } from 'react-parallax'
 
 const Project = ({ title, img, description }) => {
   return (
-    <div>
-      <h1>{title}</h1>
-      <img style={{height: "25%", width: "25%"}} src={img} />
-      <p>{description}</p>
+    <div className="project-container">
+      <h1 className="about-title">{title}</h1>
+      <Parallax bgImage={img} strength={100} bgWidth="68%">
+        <div style={{height: 400}}>
+        </div>
+      </Parallax>
+      <p className="about-content">{description}</p>
     </div>
   )
 }
