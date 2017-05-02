@@ -96,20 +96,37 @@ canvas{
   max-width: 100%;
 }
 
-/*//////Projects Seciont/////*/
+/*//////Projects Section/////*/
 .project-container {
   text-align: center;
   margin-top: 10%;
-}
-
-p[class^="project-description"] {
-  display: none;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
 }
 
 .project-title {
   font-family: 'Cinzel', serif;
   text-decoration: none;
   color: black;
+}
+
+/*.hide {
+  height: 0%;
+  width: 0%;
+  visibility: hidden;
+  margin-left: 100%;
+}
+
+.show {
+  visibility: visible;
+  margin: auto;
+}*/
+
+p[class^="project-description"] {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  -webkit-transition: all 2s;
+  top: 0;
+}
+
+div[class^="par"] {
+  -webkit-transition: margin-left 2s linear;
 }
