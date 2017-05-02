@@ -101,3 +101,15 @@ canvas{
   text-align: center;
   margin-top: 10%;
 }
+
+p[class^="project-description"] {
+  display: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.project-title {
+  font-family: 'Cinzel', serif;
+  text-decoration: none;
+  color: black;
+}
