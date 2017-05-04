@@ -13,7 +13,11 @@ import './index.css';
 
 ReactDOM.render(
   <Router history={history}>
-    <Route path='/' component={ App } />
+    <div>
+      <Route exact path='/' component={ App } />
+      <Route exact path='/projects' component={ App } />
+
+    </div>
   </Router>,
 
   document.getElementById('root')

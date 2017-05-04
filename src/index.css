@@ -108,25 +108,19 @@ canvas{
   color: black;
 }
 
-/*.hide {
-  height: 0%;
-  width: 0%;
-  visibility: hidden;
-  margin-left: 100%;
-}
-
-.show {
-  visibility: visible;
-  margin: auto;
-}*/
-
 p[class^="project-description"] {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  -webkit-transition: all 2s;
-  top: 0;
+  -webkit-transition: all 0.65s;
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+  flex: auto;
 }
 
 div[class^="par"] {
-  -webkit-transition: margin-left 2s linear;
+  margin: auto;
+  -webkit-transition: all 0.75s linear;
+  flex: auto;
+  text-align: center;
 }
