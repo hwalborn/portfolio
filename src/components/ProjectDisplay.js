@@ -8,10 +8,11 @@ const handleClick = (e, id) =>{
   if(desc.style.flexGrow === "0"){
     desc.style.visibility = "visible"
     desc.style.flexGrow = 1
-    // image.style.marginLeft = "-100%"
+    desc.style.height = "100%"
     image.style.flexGrow = 0
   }else{
     desc.style.visibility = "hidden"
+    desc.style.height = 0
     desc.style.flexGrow = 0
     image.style.flexGrow = 1
   }
@@ -27,8 +28,7 @@ const ProjectDisplay = ({ id, title, img, description }) => {
         <p style={{flexGrow: 0}} className={customDescription}>{description}</p>
         <div className={customId}>
           <Parallax bgImage={img} strength={100} bgWidth="75%">
-            <div style={{height: 400}}>
-            </div>
+            <div style={{height: 400}}></div>
           </Parallax>
         </div>
       </div>

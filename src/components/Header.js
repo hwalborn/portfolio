@@ -8,7 +8,7 @@ const style={
   fontFamily: "Cinzel"
 }
 
-const Header = ({ handleClick }) => {
+const Header = () => {
     return (
       <Row className="header" style={{margin: 0}}>
         <Col md={3}>

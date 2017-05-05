@@ -7,29 +7,15 @@ import AboutMe from './components/AboutMe'
 import Projects from './components/Projects'
 import Resume from './components/Resume'
 import Footer from './components/Footer'
+import img from './img/nyc.jpg'
 
 class App extends Component {
-  constructor(){
-    super()
-    this.state={
-      content: "Home",
-      bgImage: "./img/nyc.jpg",
-
-    }
-    this.toggleShow = this.toggleShow.bind(this)
-  }
-
-  toggleShow(e){
-    this.setState({
-      content: e.target.innerText
-    })
-  }
 
   render() {
     return (
       <div className="App">
-        <Header handleClick={this.toggleShow} />
-        <Parallax bgImage={this.state.bgImage} strength={200}>
+        <Header />
+        <Parallax bgImage={img} strength={200}>
           <div style={{height: 400}}>
             <h1 id="page-title">HOLT WALBORN</h1>
           </div>
