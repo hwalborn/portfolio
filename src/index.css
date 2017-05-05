@@ -113,6 +113,7 @@ p[class^="project-description"] {
   font-size: 20px;
   -webkit-transition: all 0.65s;
   visibility: hidden;
+  max-height: 400px;
   height: 0px;
   width: 0px;
   flex: auto;
@@ -120,7 +121,7 @@ p[class^="project-description"] {
 
 div[class^="par"] {
   margin: auto;
-  -webkit-transition: all 0.75s linear;
+  -webkit-transition: all .75s linear;
   flex: auto;
   text-align: center;
 }
