@@ -108,7 +108,8 @@ canvas{
   color: black;
 }
 
-p[class^="project-description"] {
+ul[class^="project-description"] {
+  text-align: left;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   -webkit-transition: all 0.65s;
@@ -117,6 +118,8 @@ p[class^="project-description"] {
   height: 0px;
   width: 0px;
   flex: auto;
+  padding: 0px;
+  list-style-type: none;
 }
 
 div[class^="par"] {
