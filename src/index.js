@@ -2,12 +2,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import injectTapEventPlugin from 'react-tap-event-plugin'
-import { Router, Route, hashHistory } from 'react-router'
-import createHistory from 'history/createBrowserHistory'
+import { Route } from 'react-router'
 import { HashRouter } from 'react-router-dom'
 
 injectTapEventPlugin()
-// const history = createHistory()
 
 import App from './App';
 import './index.css';

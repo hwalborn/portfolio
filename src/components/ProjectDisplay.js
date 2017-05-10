@@ -22,7 +22,7 @@ const handleClick = (e, id) =>{
 const ProjectDisplay = ({ loc, id, title, img, description, url }) => {
   let customDescription=`project-description-${id}`
   let customId = `par-${id}`
-  let newDesc = <ul style={{flexGrow: 0}} className={customDescription}>{description.split("***").map(li => <li>{li}</li>)}<a href={url}>{title}</a></ul>
+  let newDesc = <ul style={{flexGrow: 0}} className={customDescription}>{description.split("***").map((li, i) => <li key={i}>{li}</li>)}<a href={url}>{title}</a></ul>
 
   return (
     <div className="project-container">
