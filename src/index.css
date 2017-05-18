@@ -46,6 +46,10 @@
   padding: 0;
 }
 
+div.dropdown.btn-group {
+  margin-left: 29%;
+}
+
 .dropItem {
   padding-left: 0;
 }
