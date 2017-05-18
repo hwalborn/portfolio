@@ -9,12 +9,13 @@ const handleClick = (e, id) =>{
     desc.style.visibility = "visible"
     desc.style.flexGrow = 1
     desc.style.marginLeft = "5%"
+    desc.style.display = "inline-block"
     image.style.flexGrow = 0
   }else{
     desc.style.visibility = "hidden"
     desc.style.height = 0
     desc.style.flexGrow = 0
-    desc.style.marginLeft = 0
+    desc.style.marginLeft = "0px"
     image.style.flexGrow = 1
   }
 }
@@ -28,13 +29,12 @@ const ProjectDisplay = ({ loc, id, title, img, description, url }) => {
     <div className="project-container">
       <a href='#' onClick={(e) => handleClick(e, id)}><h1 className="project-title">{title}</h1></a>
       <div style={{display: "flex", textAlign: "center", flexGrow: 1}}>
-        {loc ? newDesc : null}
+        {newDesc}
         <div className={customId}>
-          <Parallax bgImage={img} strength={100} bgWidth="75%">
-            <div style={{height: 400}}></div>
+          <Parallax bgImage={img} strength={100} bgWidth="75em">
+            <div style={{height: "35em"}}></div>
           </Parallax>
         </div>
-        {loc ? null : newDesc}
       </div>
     </div>
   )
