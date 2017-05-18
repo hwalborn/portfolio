@@ -13,14 +13,12 @@ const Header = () => {
       <Row className="header" style={{margin: 0}}>
         <Col md={3}>
           <Link to="/">Home</Link>
-          {/* <a href="/" >Home</a> */}
         </Col>
         <Col md={3}>
           <a href="https://hipsterholt.tumblr.com/">Blog</a>
         </Col>
         <Col md={3}>
           <Link to="/projects">Projects</Link>
-          {/* <a href="/projects" >Projects</a> */}
         </Col>
         <Col md={3}>
           <ButtonToolbar>
