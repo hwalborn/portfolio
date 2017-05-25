@@ -22,15 +22,17 @@ class Resume extends React.Component {
 
   render(){
     let file = null
+    let width
     this.state.file === "technical" ? file = technical : file = dance
+    window.innerWidth < 800 ? width = 400 : width = 950
     return (
       <div>
         <div id="download">
           <a href={file} download={this.state.file}><FontAwesome style={{color: 'black'}} name="download" size="5x"/></a>
         </div>
-        <Row style={{margin: 0}}>
+        <Row className="resume-rwd" style={{margin: 0}}>
           <Col style={{textAlign: 'center'}} md={12}>
-            <ReactPDF scale={1.5} file={file} />
+            <ReactPDF width={width} scale={1.5} file={file} />
           </Col>
         </Row>
       </div>

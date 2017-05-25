@@ -26,6 +26,6 @@ export const projectData = [{
     title: "Dirty News",
     img: "./project-screenshots/dirty-news.png",
     description: "Built with Sinatra***Uses Nokogiri and Open URI to scrape the web***Scrapes NPR News and a certain website to create custom headlines",
-    ur: "https://scraper-x.herokuapp.com/"
+    url: "https://scraper-x.herokuapp.com/"
   }
 ]
