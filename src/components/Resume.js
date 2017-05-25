@@ -24,7 +24,7 @@ class Resume extends React.Component {
     let file = null
     let width
     this.state.file === "technical" ? file = technical : file = dance
-    window.innerWidth < 800 ? width = 400 : width = 950
+    window.innerWidth < 800 ? width =260 : width = 950
     return (
       <div>
         <div id="download">
