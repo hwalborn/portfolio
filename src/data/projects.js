@@ -21,5 +21,11 @@ export const projectData = [{
     img: "./project-screenshots/leaves.png",
     description: "React/Redux web application to represent leaves in a gentle breeze***Inspired by Eastern Parkway, BK in the springtime***Uses Redux to store location and speed of leaves***Hosted with github pages",
     url: "https://hwalborn.github.io/"
+  },
+  {
+    title: "Dirty News",
+    img: "./project-screenshots/dirty-news.png",
+    description: "Built with Sinatra***Uses Nokogiri and Open URI to scrape the web***Scrapes NPR News and a certain website to create custom headlines",
+    ur: "https://scraper-x.herokuapp.com/"
   }
 ]
