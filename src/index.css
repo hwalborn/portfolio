@@ -133,3 +133,10 @@ div[class^="par"] {
   flex: auto;
   text-align: center;
 }
+
+/*/////RWD/////*/
+@media screen and (max-width: 500px){
+  #page-title{
+    font-size: 7em;
+  }
+}
