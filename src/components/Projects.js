@@ -5,7 +5,7 @@ import { projectData } from '../data/projects.js'
 const Projects = () => {
 
   let show = projectData.map((project, index) => {
-    return <ProjectDisplay key={index} id={index} title={project.title} img={project.img} url={project.url} description={project.description} />
+    return <ProjectDisplay key={index} id={index} title={project.title} img={project.img} url={project.url} gh={project.gh} description={project.description} />
   })
 
   return (
