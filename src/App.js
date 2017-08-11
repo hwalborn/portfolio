@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Parallax } from 'react-parallax'
-import { Route } from 'react-router'
+import { Route, withRouter } from 'react-router'
 
 import Header from './components/Header'
 import AboutMe from './components/AboutMe'
@@ -32,4 +32,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withRouter(App);

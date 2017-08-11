@@ -7,16 +7,16 @@ const Footer = () => {
     <div style={{padding: "2% 0 2% 0"}}>
       <Row id="fix">
         <Col style={{textAlign: 'center'}} md={3}>
-          <a className="icon" href="https://www.linkedin.com/in/holt-walborn/"><FontAwesome name="linkedin-square" size="4x" style={{color: 'black'}} /></a>
+          <a target="_blank" className="icon" href="https://www.linkedin.com/in/holt-walborn/"><FontAwesome name="linkedin-square" size="4x" style={{color: 'black'}} /></a>
         </Col>
         <Col style={{textAlign: 'center'}} md={3}>
-          <a className="icon" href="https://github.com/hwalborn"><FontAwesome name="github" size="4x" style={{color: 'black'}} /></a>
+          <a target="_blank" className="icon" href="https://github.com/hwalborn"><FontAwesome name="github" size="4x" style={{color: 'black'}} /></a>
         </Col>
         <Col style={{textAlign: 'center'}} md={3}>
-          <a className="icon" href="https://www.instagram.com/hipsterholt/?hl=en"><FontAwesome name="instagram" size="4x" style={{color: 'black'}} /></a>
+          <a target="_blank" className="icon" href="https://www.instagram.com/hipsterholt/?hl=en"><FontAwesome name="instagram" size="4x" style={{color: 'black'}} /></a>
         </Col>
         <Col style={{textAlign: 'center'}} md={3}>
-          <a className="icon" href="mailto:hwalborn@gmail.com"><FontAwesome name="envelope" size="4x" style={{color: 'black'}} /></a>
+          <a target="_blank" className="icon" href="mailto:hwalborn@gmail.com"><FontAwesome name="envelope" size="4x" style={{color: 'black'}} /></a>
         </Col>
       </Row>
     </div>

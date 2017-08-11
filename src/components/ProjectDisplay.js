@@ -28,7 +28,6 @@ const ProjectDisplay = ({ loc, id, title, gh, img, description, url }) => {
     github = <div>
       <a href={gh.frontend}>github frontend</a><br></br>
       <a href={gh.backend}>github backend</a>
-
     </div>
   } else {
     github = <div><a href={gh}>github</a></div>
