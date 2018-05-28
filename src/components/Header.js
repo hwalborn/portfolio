@@ -15,7 +15,7 @@ const Header = () => {
           <Link to="/">Home</Link>
         </Col>
         <Col md={3}>
-          <a href="https://hipsterholt.tumblr.com/" target="_blank">Blog</a>
+          <a href="https://hipsterholt.tumblr.com/">Blog</a>
         </Col>
         <Col md={3}>
           <Link to="/projects">Projects</Link>

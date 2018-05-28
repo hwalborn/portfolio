@@ -4,7 +4,7 @@ export const aboutData = [{
   },
   {
     title: "Where Am I?(Present)",
-    content: "As a recent graduate of the Flatiron School in Manhattan, I am on the hunt for a job. As far as technical skills go, I write in Ruby, Rails, JavaScript, SQL, React, Redux, Sinatra, and several other frameworks/languages. I understand full stack web development and object oriented programming. Beyond the job search, I enjoy solving code challenges and creating basic web applications. I love breaking things, then figuring out how to fix it.  Talk to me about code or dancing or life. I consider myself easy to talk to and appreciate good conversation about almost anything. Finding solace in the chaos of a career transition has proved to be quite enjoyable."
+    content: "I'm currently employed as junior software engineer at Greenslate in Manhattan. As far as technical skills go, I write in C#, Unity, Telerik Kendo, Ruby, Rails, JavaScript, SQL, React, Redux, Sinatra, and several other frameworks/languages. I understand full stack web development and object oriented programming. I enjoy solving code challenges and creating basic web applications. I love breaking things, then figuring out how to fix it.  Talk to me about code or dancing or life. I consider myself easy to talk to and appreciate good conversation about almost anything. Finding solace in the chaos of a career transition has proved to be quite enjoyable."
   },
   {
     title: "What's Next?(Future)",
